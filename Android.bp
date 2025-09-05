@@ -22,6 +22,7 @@ webview_app_import {
     name: "webview",
     product_specific: true,
     enforce_uses_libs: false,
+    preprocessed: true,
     presigned: true,
     required: [
         "libwebviewchromium_loader",
